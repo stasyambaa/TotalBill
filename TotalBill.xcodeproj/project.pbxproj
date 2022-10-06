@@ -14,6 +14,8 @@
 		E17A344228EDFB7F003E60FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17A344028EDFB7F003E60FF /* LaunchScreen.storyboard */; };
 		E17A344A28EE1534003E60FF /* TotalBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17A344928EE1534003E60FF /* TotalBillView.swift */; };
 		E17A344C28EE20B0003E60FF /* TotalPersonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17A344B28EE20B0003E60FF /* TotalPersonsView.swift */; };
+		E17A344E28EE5547003E60FF /* TipsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17A344D28EE5547003E60FF /* TipsCollectionViewCell.swift */; };
+		E17A345028EE5642003E60FF /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17A344F28EE5642003E60FF /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E17A344328EDFB7F003E60FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E17A344928EE1534003E60FF /* TotalBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBillView.swift; sourceTree = "<group>"; };
 		E17A344B28EE20B0003E60FF /* TotalPersonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalPersonsView.swift; sourceTree = "<group>"; };
+		E17A344D28EE5547003E60FF /* TipsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCollectionViewCell.swift; sourceTree = "<group>"; };
+		E17A344F28EE5642003E60FF /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,10 @@
 				E17A343528EDFB7F003E60FF /* AppDelegate.swift */,
 				E17A343728EDFB7F003E60FF /* SceneDelegate.swift */,
 				E17A343928EDFB7F003E60FF /* MainViewController.swift */,
+				E17A344D28EE5547003E60FF /* TipsCollectionViewCell.swift */,
 				E17A344928EE1534003E60FF /* TotalBillView.swift */,
 				E17A344B28EE20B0003E60FF /* TotalPersonsView.swift */,
+				E17A344F28EE5642003E60FF /* TipsView.swift */,
 				E17A343E28EDFB7F003E60FF /* Assets.xcassets */,
 				E17A344028EDFB7F003E60FF /* LaunchScreen.storyboard */,
 				E17A344328EDFB7F003E60FF /* Info.plist */,
@@ -144,6 +150,8 @@
 				E17A344A28EE1534003E60FF /* TotalBillView.swift in Sources */,
 				E17A343A28EDFB7F003E60FF /* MainViewController.swift in Sources */,
 				E17A343628EDFB7F003E60FF /* AppDelegate.swift in Sources */,
+				E17A345028EE5642003E60FF /* TipsView.swift in Sources */,
+				E17A344E28EE5547003E60FF /* TipsCollectionViewCell.swift in Sources */,
 				E17A343828EDFB7F003E60FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

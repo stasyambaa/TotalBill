@@ -54,6 +54,8 @@ class MainViewController: UIViewController {
     
     let totalPersonsView = TotalPersonsView()
     
+    let tipsView = TipsView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -70,6 +72,7 @@ class MainViewController: UIViewController {
         view.addSubview(totalBillView)
         view.addSubview(totalPersonsView)
         view.addSubview(calculateButton)
+        view.addSubview(tipsView)
         
     }
 }
@@ -81,10 +84,10 @@ extension MainViewController {
         NSLayoutConstraint.activate([titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
                                      titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                                     
-                                     bowImageView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 10),
+                                     bowImageView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 5),
                                      bowImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-                                     bowImageView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.7),
-                                     bowImageView.heightAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.4),
+                                     bowImageView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.6),
+                                     bowImageView.heightAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.35),
                                      
                                      descriptionLabel.topAnchor.constraint(equalTo: bowImageView.bottomAnchor, constant: 10),
                                      descriptionLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -99,7 +102,12 @@ extension MainViewController {
                                      totalPersonsView.topAnchor.constraint(equalTo: totalBillView.bottomAnchor, constant: 10),
                                      totalPersonsView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
                                      totalPersonsView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
-                                     totalPersonsView.heightAnchor.constraint(equalToConstant: 150),
+                                     totalPersonsView.heightAnchor.constraint(equalToConstant: 120),
+                                     
+                                     tipsView.topAnchor.constraint(equalTo: totalPersonsView.bottomAnchor, constant: 10),
+                                     tipsView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
+                                     tipsView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
+                                     tipsView.heightAnchor.constraint(equalToConstant: 120),
                                      
                                      calculateButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20),
                                      calculateButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
